@@ -16,7 +16,9 @@ response = assistant.message(
     input={
         'message_type': 'text',
         'text': '海外ですね。',
-        'options':{'return_context': True}
+        'options': {
+            'return_context': True
+        }
     }
 ).get_result()
 

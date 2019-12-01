@@ -16,7 +16,9 @@ response = assistant.message(
     input={
         'message_type': 'text',
         'text': '旅行に行きたい',
-        'options':{'return_context': True}
+        'options': {
+            'return_context': True
+        }
     },
     context={
         "skills": {
